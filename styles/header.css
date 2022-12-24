@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  transform: translateY(8px);
 }
 .info_block_text_1 {
   font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
@@ -125,7 +125,7 @@
   max-width: 480px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
   font-weight: 400;
 }
@@ -140,9 +140,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 14px;
+  /* line-height: 14px; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+}
+.language_del {
+  transform: translateY(7px);
 }
 
 .language_list option {
@@ -152,9 +155,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
   max-width: 65px;
+  transform: translateY(8px);
 }
 .authorization img {
   /* ================================ */

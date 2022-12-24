@@ -123,15 +123,6 @@ body {
   font-size: 16px;
   font-family: "Cerebri-Sans-Pro-Bold", sans-serif;
 }
-.all_list_position_left {
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
-  align-items: center;
-  /* max-width: 270px; */
-  height: 100%;
-  max-height: 30px;
-}
 .text_department {
   font-family: "Cerebri-Sans-Pro-Extra-Bold", sans-serif;
   font-style: normal;
@@ -199,6 +190,7 @@ body {
   line-height: 19px;
   display: flex;
   align-items: center;
+  transform: translateY(8px);
 
   color: #999999;
 }
@@ -251,11 +243,10 @@ body {
 .social_frame_info_text_1 {
   font-size: 16px;
   font-weight: 900;
-  /* width: 126px;
-  height: 25px; */
+
+  height: 25px;
   font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
   font-style: normal;
-  line-height: 20px;
 
   color: #2a2a2a;
 }
@@ -264,16 +255,6 @@ body {
   font-size: 13px;
 }
 /* SECOND GROUP */
-.group_two {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  /* width: 100%;
-  max-width: 1140px;
-  padding-top: 10px; */
-}
 .easy_list {
   box-sizing: border-box;
   width: 100%;
@@ -284,15 +265,13 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 23px 0px 25px 20px;
+  padding: 25px 5px 25px 25px;
   border: 1px solid rgba(42, 42, 42, 0.2);
-  margin-bottom: 29px;
   font-family: "Cerebri-Sans-Pro-Meadium", sans-serif;
-
+  line-height: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 36px;
 
   color: #999999;
 }
@@ -381,6 +360,7 @@ body {
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  margin-top: 50px;
 }
 .block_2 {
   display: flex;
@@ -431,7 +411,6 @@ body {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  max-height: 2240px;
   max-width: 1140px;
   font-family: "Cerebri-Sans-Pro-Reqular", sans-serif;
   margin-top: 100px;
@@ -461,17 +440,22 @@ body {
 }
 .group_4_catalog_group {
   display: flex;
-  flex-direction: column;
-  margin: 0px 5px 0px 5px;
-  margin-top: 30px;
-  width: 367px;
-  height: 460px;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1140px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .group_4_catalog_nav_item {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-family: "Cerebri-Sans-Pro-Heavy", sans-serif;
 }
+.carousel-control-next {
+  transform: translateX(260px);
+}
+/* 24.12.2022 */
 
 .group_4_img_item_block_text {
   display: flex;

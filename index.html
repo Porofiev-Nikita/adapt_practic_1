@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.rtl.min.css" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/header.css" />
@@ -48,7 +49,7 @@
                 </div>
               </div>
 
-              <div>
+              <div class="language_del">
                 <p>|</p>
               </div>
               <div class="authorization">
@@ -102,10 +103,8 @@
             <div class="box_left_1">
               <div class="all_list">
                 <div class="all_list_block">
-                  <div class="all_list_position_left">
-                    <div class="icon_department"><img src="./img/social_item/menu_black.png" alt="" /></div>
-                    <div class="text_department">All Department</div>
-                  </div>
+                  <div class="icon_department"><img src="./img/social_item/menu_black.png" alt="" /></div>
+                  <div class="text_department">All Department</div>
                   <select class="department_list">
                     <div>
                       <option hidden></option>
@@ -187,10 +186,10 @@
             </div>
           </div>
         </div>
-        <div class="group_one"></div>
+
         <!-- Первая группа конец -->
 
-        <!-- Третья группа начало -->
+        <!-- Вторая группа начало -->
         <div class="group_three">
           <div class="block_2">
             <div class="block_2_item">
@@ -220,311 +219,485 @@
           </div>
         </div>
 
-        <!-- Третья группа конец -->
+        <!-- Вторая группа конец -->
 
-        <!-- Четвертая группа начало -->
+        <!-- Третья группа начало -->
         <div class="group_4">
-          <div class="group_4_img">
-            <div class="group_4_img_item">
-              <img src="./img/catalog/nav_catalog_summer_fruits.png" alt="" />
-              <div class="group_4_img_item_block_text">
-                <p class="group_4_img_item_block_text_bold">Summer Fruits</p>
-                <p class="group_4_img_item_block_text_normal">100% All Natural Fruit Juice</p>
-                <button class="group_4_img_item_block_button">SHOP NOW</button>
-              </div>
-            </div>
-            <div class="group_4_img_item">
-              <img src="./img/catalog/nav_catalog_dried_and_drink.png" alt="" />
-              <div class="group_4_img_item_block_text">
-                <p class="group_4_img_item_block_text_bold">Dried & Drink Fruits</p>
-                <p class="group_4_img_item_block_text_normal">100% All Natural Fruit Juice</p>
-                <button class="group_4_img_item_block_button">SHOP NOW</button>
-              </div>
-            </div>
-          </div>
           <div class="group_4_catalog">
             <div class="group_4_catalog_group" id="group_4_catalog_group_latest">
               <div class="group_4_catalog_nav_item">
-                <div class="group_4_catalog_nav_item_text">Latest Product</div>
-                <div class="group_4_catalog_nav_item_buttons">
-                  <button><img src="./img/social_item/Vector_left.png" alt="" /></button>
-                  <button><img src="./img/social_item/Vector_right.png" alt="" /></button>
+                <!--  -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="group_4_catalog_nav_item_text">Latest Product</div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="group_4_catalog_content">
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_1.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Cauliflower</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_2.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Organic Quince</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_3.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_popular">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_4.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Bleuberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_5.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Capsicum-Green</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_6.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_lreview">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_7.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Hazelnuts Filbert Nut</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_8.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Green Apple</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_9.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Fresh Raspberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group_4_catalog_nav_item_buttons">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_left.png" alt="" /></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_right.png" alt="" /></span>
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div class="group_4_catalog_content">
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_1.png" alt="" /></div>
-
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Cauliflower</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_2.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Organic Quince</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_3.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="group_4_catalog_group" id="group_4_catalog_group_popular">
               <div class="group_4_catalog_nav_item">
-                <div class="group_4_catalog_nav_item">
+                <!-- 2 -->
+                <div id="carouselExampleControls_2" class="carousel slide" data-bs-ride="carousel">
                   <div class="group_4_catalog_nav_item_text">Top rated Products</div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="group_4_catalog_content">
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_1.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Cauliflower</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_2.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Organic Quince</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_3.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_popular">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_4.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Bleuberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_5.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Capsicum-Green</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_6.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_lreview">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_7.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Hazelnuts Filbert Nut</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_8.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Green Apple</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_9.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Fresh Raspberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="group_4_catalog_nav_item_buttons">
-                    <button><img src="./img/social_item/Vector_left.png" alt="" /></button>
-                    <button><img src="./img/social_item/Vector_right.png" alt="" /></button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_left.png" alt="" /></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls_2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_right.png" alt="" /></span>
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="group_4_catalog_content">
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_4.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Bleuberry</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_5.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Capsicum-Green</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_6.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="group_4_catalog_group" id="group_4_catalog_group_lreview">
               <div class="group_4_catalog_nav_item">
-                <div class="group_4_catalog_nav_item">
+                <!-- 3 -->
+                <div id="carouselExampleControls_3" class="carousel slide" data-bs-ride="carousel">
                   <div class="group_4_catalog_nav_item_text">Review Products</div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="group_4_catalog_content">
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_1.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Cauliflower</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_2.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Organic Quince</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                        <div class="group_4_catalog_content_obj">
+                          <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_3.png" alt="" /></div>
+                          <div class="group_4_catalog_content_obj_text">
+                            <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                            <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_popular">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_4.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Bleuberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_5.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Capsicum-Green</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_6.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Tomato Hybrid</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="group_4_catalog_group" id="group_4_catalog_group_lreview">
+                        <div class="group_4_catalog_content">
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_7.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Hazelnuts Filbert Nut</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_8.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Green Apple</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                          <div class="group_4_catalog_content_obj">
+                            <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_9.png" alt="" /></div>
+                            <div class="group_4_catalog_content_obj_text">
+                              <p class="group_4_catalog_content_obj_text_normal">Fresh Raspberry</p>
+                              <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="group_4_catalog_nav_item_buttons">
-                    <button><img src="./img/social_item/Vector_left.png" alt="" /></button>
-                    <button><img src="./img/social_item/Vector_right.png" alt="" /></button>
-                  </div>
-                </div>
-              </div>
-              <div class="group_4_catalog_content">
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_7.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Hazelnuts Filbert Nut</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_8.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Green Apple</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
-                  </div>
-                </div>
-                <div class="group_4_catalog_content_obj">
-                  <div class="group_4_catalog_content_obj_block_img"><img src="./img/catalog/catalog_object_9.png" alt="" /></div>
-                  <div class="group_4_catalog_content_obj_text">
-                    <p class="group_4_catalog_content_obj_text_normal">Fresh Raspberry</p>
-                    <p class="group_4_catalog_content_obj_text_bold">$30.00</p>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_left.png" alt="" /></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls_3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"><img src="./img/social_item/Vector_right.png" alt="" /></span>
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- Третья группа конец -->
+
+          <!-- Четвертая группа начало -->
+          <div class="group_5">
+            <div class="group_5_nav">
+              <p class="group_5_nav_text">Featured Product</p>
+              <div class="group_5_nav_bottom_border_green"></div>
+            </div>
+            <div class="group_5_sort">
+              <div class="group_5_sort_nav">
+                <p class="group_5_sort_nav_bold"><a href="">All</a></p>
+                <p class="group_5_sort_nav_gray_op"><a href="">Oranges</a></p>
+                <p class="group_5_sort_nav_gray_op"><a href="">Fresh Meat</a></p>
+
+                <p class="group_5_sort_nav_gray_op"><a href="">Vegetables</a></p>
+                <p class="group_5_sort_nav_gray_op"><a href="">Fastfood</a></p>
+              </div>
+            </div>
+            <div class="group_5_sort_content">
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_1.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Bunc of bananas</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_2.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Fresh fruit apricot</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_3.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Avokado fruit</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_4.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Red aplle</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_5.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Two freesh figs</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_6.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Cucumber</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_7.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Beef steak</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+              <div class="group_5_sort_content_block">
+                <div class="group_5_sort_content_block_img">
+                  <img src="./img/block_sort/sort_fruit_8.png" alt="" />
+                </div>
+                <div class="group_5_sort_content_block_text_block">
+                  <p class="group_5_sort_content_block_text_block_text">Raw Broccoli</p>
+                  <p class="group_5_sort_content_block_text_block_price">$30.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Четвертая группа конец -->
+
+          <!-- Пятая блок начало -->
+          <div class="group_6">
+            <div class="group_6_nav">
+              <p class="group_6_nav_text">From The Blog</p>
+              <div class="group_6_nav_bottom_border_green"></div>
+            </div>
+            <div class="group_6_content">
+              <div class="group_6_content_block">
+                <img src="./img/blog_img/blog_img_1.png" alt="" />
+                <div class="group_6_nav_text_block">
+                  <div class="group_6_nav_text_block_icons">
+                    <div class="group_6_nav_text_block_icon_calendar">
+                      <img src="./img/social_item/calendar.png" alt="" />
+                    </div>
+                    <p>May 4, 2021</p>
+                    <div class="group_6_nav_text_block_icon_textsms">
+                      <img src="./img/social_item/textsms.png" alt="" />
+                    </div>
+                    <p>54</p>
+                  </div>
+                  <div class="group_6_nav_text_block_bold">
+                    <p>Busting Salad Myths: Eat A Well-Built Salad (If You Want To)</p>
+                  </div>
+                  <div class="group_6_nav_text_block_normal_and_button">
+                    <p>
+                      This is usually said when someone is trying to lose weight or be “super healthy.” first, to lose weight, it is widely understood that we must burn more
+                      calories than we eat. thus <a href="">Read More</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group_6_content_block">
+                <img src="./img/blog_img/blog_img_2.png" alt="" />
+                <div class="group_6_nav_text_block">
+                  <div class="group_6_nav_text_block_icons">
+                    <div class="group_6_nav_text_block_icon_calendar">
+                      <img src="./img/social_item/calendar.png" alt="" />
+                    </div>
+                    <p>May 4, 2021</p>
+                    <div class="group_6_nav_text_block_icon_textsms">
+                      <img src="./img/social_item/textsms.png" alt="" />
+                    </div>
+                    <p>25</p>
+                  </div>
+                  <div class="group_6_nav_text_block_bold">
+                    <p>Vitamin c: how much and which sources are best for boosting immunity?</p>
+                  </div>
+                  <div class="group_6_nav_text_block_normal_and_button_2">
+                    <p>
+                      During cold and flu season, we try to do all we can to prevent illness or speed up how fast we recover from illness. One such strategy many employ is the use
+                      of Vitamin C for a natural remedy. <a href="">Read More</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group_6_content_block">
+                <img src="./img/blog_img/blog_img_3.png" alt="" />
+                <div class="group_6_nav_text_block">
+                  <div class="group_6_nav_text_block_icons">
+                    <div class="group_6_nav_text_block_icon_calendar">
+                      <img src="./img/social_item/calendar.png" alt="" />
+                    </div>
+                    <p>May 4, 2021</p>
+                    <div class="group_6_nav_text_block_icon_textsms">
+                      <img src="./img/social_item/textsms.png" alt="" />
+                    </div>
+                    <p>58</p>
+                  </div>
+                  <div class="group_6_nav_text_block_bold">
+                    <p>Pump Up The Produce Power In Winter Meals</p>
+                  </div>
+                  <div class="group_6_nav_text_block_normal_and_button">
+                    <p>
+                      We’ve all been here before: When it seems the long, gray winter will never end and you make one more pot of hearty vegetable soup or another casserole;
+                      <a href="">Read More</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Пятая блок конец -->
         </div>
-        <!-- Четвертая группа конец -->
 
-        <!-- Пятая группа начало -->
-        <div class="group_5">
-          <div class="group_5_nav">
-            <p class="group_5_nav_text">Featured Product</p>
-            <div class="group_5_nav_bottom_border_green"></div>
-          </div>
-          <div class="group_5_sort">
-            <div class="group_5_sort_nav">
-              <p class="group_5_sort_nav_bold"><a href="">All</a></p>
-              <p class="group_5_sort_nav_gray_op"><a href="">Oranges</a></p>
-              <p class="group_5_sort_nav_gray_op"><a href="">Fresh Meat</a></p>
-
-              <p class="group_5_sort_nav_gray_op"><a href="">Vegetables</a></p>
-              <p class="group_5_sort_nav_gray_op"><a href="">Fastfood</a></p>
-            </div>
-          </div>
-          <div class="group_5_sort_content">
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_1.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Bunc of bananas</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_2.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Fresh fruit apricot</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_3.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Avokado fruit</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_4.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Red aplle</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_5.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Two freesh figs</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_6.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Cucumber</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_7.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Beef steak</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-            <div class="group_5_sort_content_block">
-              <div class="group_5_sort_content_block_img">
-                <img src="./img/block_sort/sort_fruit_8.png" alt="" />
-              </div>
-              <div class="group_5_sort_content_block_text_block">
-                <p class="group_5_sort_content_block_text_block_text">Raw Broccoli</p>
-                <p class="group_5_sort_content_block_text_block_price">$30.00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Пятая группа конец -->
-
-        <!-- Шестой блок начало -->
-        <div class="group_6">
-          <div class="group_6_nav">
-            <p class="group_6_nav_text">From The Blog</p>
-            <div class="group_6_nav_bottom_border_green"></div>
-          </div>
-          <div class="group_6_content">
-            <div class="group_6_content_block">
-              <img src="./img/blog_img/blog_img_1.png" alt="" />\
-              <div class="group_6_nav_text_block">
-                <div class="group_6_nav_text_block_icons">
-                  <div class="group_6_nav_text_block_icon_calendar">
-                    <img src="./img/social_item/calendar.png" alt="" />
-                  </div>
-                  <p>May 4, 2021</p>
-                  <div class="group_6_nav_text_block_icon_textsms">
-                    <img src="./img/social_item/textsms.png" alt="" />
-                  </div>
-                  <p>54</p>
-                </div>
-                <div class="group_6_nav_text_block_bold">
-                  <p>Busting Salad Myths: Eat A Well-Built Salad (If You Want To)</p>
-                </div>
-                <div class="group_6_nav_text_block_normal_and_button">
-                  <p>
-                    This is usually said when someone is trying to lose weight or be “super healthy.” first, to lose weight, it is widely understood that we must burn more calories
-                    than we eat. thus <a href="">Read More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="group_6_content_block">
-              <img src="./img/blog_img/blog_img_2.png" alt="" />
-              <div class="group_6_nav_text_block">
-                <div class="group_6_nav_text_block_icons">
-                  <div class="group_6_nav_text_block_icon_calendar">
-                    <img src="./img/social_item/calendar.png" alt="" />
-                  </div>
-                  <p>May 4, 2021</p>
-                  <div class="group_6_nav_text_block_icon_textsms">
-                    <img src="./img/social_item/textsms.png" alt="" />
-                  </div>
-                  <p>25</p>
-                </div>
-                <div class="group_6_nav_text_block_bold">
-                  <p>Vitamin c: how much and which sources are best for boosting immunity?</p>
-                </div>
-                <div class="group_6_nav_text_block_normal_and_button_2">
-                  <p>
-                    During cold and flu season, we try to do all we can to prevent illness or speed up how fast we recover from illness. One such strategy many employ is the use of
-                    Vitamin C for a natural remedy. <a href="">Read More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="group_6_content_block">
-              <img src="./img/blog_img/blog_img_3.png" alt="" />
-              <div class="group_6_nav_text_block">
-                <div class="group_6_nav_text_block_icons">
-                  <div class="group_6_nav_text_block_icon_calendar">
-                    <img src="./img/social_item/calendar.png" alt="" />
-                  </div>
-                  <p>May 4, 2021</p>
-                  <div class="group_6_nav_text_block_icon_textsms">
-                    <img src="./img/social_item/textsms.png" alt="" />
-                  </div>
-                  <p>58</p>
-                </div>
-                <div class="group_6_nav_text_block_bold">
-                  <p>Pump Up The Produce Power In Winter Meals</p>
-                </div>
-                <div class="group_6_nav_text_block_normal_and_button">
-                  <p>
-                    We’ve all been here before: When it seems the long, gray winter will never end and you make one more pot of hearty vegetable soup or another casserole;
-                    <a href="">Read More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Шестой блок конец -->
-      </div>
     </main>
     <footer class="footer">
       <div class="footer_content">
