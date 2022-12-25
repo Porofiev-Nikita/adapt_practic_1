@@ -107,10 +107,11 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .all_list_block {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #7fad39;
   color: white;
   box-sizing: border-box;
@@ -413,7 +414,7 @@ body {
   height: 100%;
   max-width: 1140px;
   font-family: "Cerebri-Sans-Pro-Reqular", sans-serif;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .group_4_img {
   display: flex;
@@ -623,12 +624,12 @@ body {
   color: #2a2a2a;
 }
 
-.group_5_sort_nav_bold a {
+.group_5_sort_nav_bold p {
   font-weight: 700;
   text-decoration-line: underline;
   color: black;
 }
-.group_5_sort_nav_gray_op a {
+.group_5_sort_nav_gray_op p {
   font-weight: 500;
   color: #999999;
 }
@@ -637,7 +638,7 @@ body {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   height: 100%;
 }
