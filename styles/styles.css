@@ -419,7 +419,7 @@ body {
 .group_4_img {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   max-height: 700px;
 }
@@ -461,13 +461,14 @@ body {
 .group_4_img_item_block_text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: end;
   position: relative;
   margin-left: 300px;
-  transform: translateY(-117px);
+  transform: translateY(-50px);
   color: rgb(255, 255, 255);
   width: 247px;
-  height: 51px;
+  height: 21px;
+
 }
 .group_4_catalog_content_obj {
   display: flex;
@@ -641,6 +642,9 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   height: 100%;
+}
+.group_5_sort_content_block_text_block p{
+  margin-bottom: 0px;
 }
 .group_5_sort_content_block {
   display: flex;
